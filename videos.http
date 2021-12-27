@@ -1,0 +1,25 @@
+@api = http://localhost:3000
+
+GET {{api}}/videos
+
+###
+
+GET {{api}}/videos/61ba7735f9a714252029fd82
+
+### Created a video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "url": "https://www.youtube.com/watch?v=fRJ3kh9cnQo&list=RDfRJ3kh9cnQo&start_radio=1",
+    "title": "Antes de ti",
+    "description": "this is a Mon Laferte video"
+}
+
+###
+
+DELETE {{api}}/videos/1
+
+###
+
+PUT {{api}}/videos/1
