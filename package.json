@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev src/index.ts"
+    "start": "node",
+    "start:dev": "ts-node-dev src/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,6 @@
     "@types/morgan": "^1.9.3",
     "@types/node": "^16.11.11",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   }
 }
